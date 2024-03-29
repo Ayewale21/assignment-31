@@ -35,13 +35,13 @@
     </style>
 </head>
 <body>
-    <img src="image 1.jpg" id="main-product-image" />
+    <img src="./img/image 1.jpg" id="main-product-image" />
 
     <div class="product-images-container">
 
-        <img src="image 1.jpg" class="product-image" onclick="changeImage(1)"/>
-        <img src="img2.jpg" class="product-image" onclick="changeImage(2)"/>
-        <img src="img3.jpg" class="product-image" onclick="changeImage(3)"/>
+        <img src="./img/image 1.jpg" class="product-image" onclick="changeImage(1)"/>
+        <img src="./img/img2.jpg" class="product-image" onclick="changeImage(2)"/>
+        <img src="./img/img3.jpg" class="product-image" onclick="changeImage(3)"/>
 
 
 
@@ -50,12 +50,12 @@
         function changeImage(num){
             const mainImage = document.getElementById('main-product-image');
             if(num==1){
-                mainImage.src = "image 1.jpg";
+                mainImage.src = "./img/image 1.jpg";
             }else if(num==2){
-                mainImage.src = "img2.jpg";
+                mainImage.src = "./img/image 1.jpg";
 
             }else if(num==3){
-                mainImage.src = "img3.jpg";
+                mainImage.src = "./img/image 1.jpg";
 
             }
             }
